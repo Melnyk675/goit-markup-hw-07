@@ -1,0 +1,38 @@
+.features__list {
+    display: flex;
+    gap: 30px;
+}
+
+.features__title {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var($primary-text-color);
+}
+
+.features__text {
+    line-height: 1.71;
+    color: var($second-color);
+    margin-top: 10px;
+}
+
+.box-benefits {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc((100% - 90px) / 4);
+    }    
+
+    .benefits {
+        width: 70px;
+        height: 70px;
+    }

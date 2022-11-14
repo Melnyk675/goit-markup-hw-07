@@ -1,0 +1,328 @@
+:root {
+    --primary-text-color: #212121;
+    --second-color: #757575;
+    --third-color: #2F303A;
+    --back-color: #FFFFFF;
+    --back1-color: #000000;
+    --back2-color: #F5F5F5;
+    --blue-color: #2196F3;
+    --hover-focus-color: #F5F4FA;
+    --fourth-color: rgba(255, 255, 255, 0.6);
+}
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;  
+  letter-spacing: 0.03em;
+  background-color: var(--back-color);
+}
+
+.header {
+    background-color: var(--back-color);
+}
+
+.logo-header {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--back1-color);
+text-decoration: none;
+}
+
+.logo-part {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.link-current {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+.link-current:hover,
+.link-current:focus {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.contact-link-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--blue-color);
+text-decoration: none;
+}
+
+.contact-link-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.contact-link-mail:hover,
+.contact-link-mail:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.contact-link-tel:hover,
+.contact-link-tel:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.hero,
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+background-color: var(--third-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: var(--back-color);
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    background-color: var(--blue-color);
+    border: none;
+    color: var(--back-color);
+}
+
+.btn:hover,
+.btn:focus {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    background-color: var(--blue-color);
+    border: none;
+    color: var(--back-color);
+    cursor: pointer;
+}
+
+.section-subtitle {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.section-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+.business,
+.title-question {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.section-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: var(--hover-focus-color);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-item,
+.team-people {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-paragraph {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background:  var(--hover-focus-color);
+    border: none;
+}
+
+.button:hover,
+.button:focus {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--back-color);
+    background: var(--blue-color);
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+    color: var(--back2-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+.footer-back {
+    font-family: 'Raleway';
+    background-color: var(--third-color);
+}
+
+.logo-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+.logo-web {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--back-color);
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-target {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--back-color);
+    text-decoration: none;
+}
+
+.address-item {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--fourth-color);
+    text-decoration: none;
+}
+
+.address-item:hover,
+.address-item:focus {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--hover-focus-color);
+    text-decoration: none;
+}
+
+
+
+

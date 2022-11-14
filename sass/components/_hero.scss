@@ -1,0 +1,53 @@
+.hero {
+    background-color: var($third-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../img/team.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+&__title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var($back-color);
+width: 696px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+}
+&__btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    background-color: var($blue-color);
+    border-radius: 4px;
+    border: none;
+    color: var($back-color);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 32px;
+    transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+&:focus {
+    background-color: #188CE8;
+    color: var($back-color);
+}
+}
+}
+
+.container-box {
+    background-color: #2F303A;
+}

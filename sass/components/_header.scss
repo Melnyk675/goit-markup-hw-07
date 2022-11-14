@@ -1,0 +1,93 @@
+.header {
+    border-bottom: 1px solid #ECECEC;
+&__logo-header {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var($back1-color);
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+    }
+&__logo-part {
+        color: var($blue-color);
+    }
+}
+
+.wrapper {
+    display: flex;
+align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+&__list {
+    display:flex;
+    align-items: center;
+    gap: 50px;
+    &__item {
+&__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var($primary-text-color);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+&:focus {
+    color: var($blue-color);
+}
+}
+}
+}
+}
+
+.link {
+    text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+&__link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var($second-color);
+text-decoration: none;
+padding-top: 32px;
+padding-bottom: 32px;
+display: flex;
+align-items: center;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+&:focus  {
+    color: var($blue-color);
+&__icon {
+    fill: var($second-color);
+    margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+&__icon {
+    fill: currentColor;
+&:hover,
+&:focus {
+    fill: var($blue-color);
+}
+}
+}
+}
+}
+}
