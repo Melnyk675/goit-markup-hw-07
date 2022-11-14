@@ -890,13 +890,13 @@ img {
   padding: 63px 24px;
 }
 
-.products-container {
+.description-container {
   padding: 20px 24px;
   border: 1px solid #EEEEEE;
   border-top: none;
 }
 
-.products__title {
+.description__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -905,7 +905,7 @@ img {
   margin-bottom: 4px;
 }
 
-.products__text {
+.description__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
